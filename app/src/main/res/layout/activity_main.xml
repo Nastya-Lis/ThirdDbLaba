@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingConstraints"
+    android:orientation="vertical">
+    <TextView
+        android:id = "@+id/text_absolute"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:hint="@string/Absolute"
+        android:textSize="34dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037" />
+    <TextView
+        android:id = "@+id/text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:hint="@string/NameResource"
+        android:textSize="34dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037" />
+    <TextView
+        android:id = "@+id/text_path"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:hint="@string/PathResource"
+        android:textSize="34dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037" />
+    <TextView
+        android:id = "@+id/text_read_write"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:hint="@string/ReadWrite"
+        android:textSize="34dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037" />
+    <TextView
+        android:id = "@+id/text_external"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:hint="@string/External"
+        android:textSize="34dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037" />
+
+    <Button
+        android:id="@+id/but1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="GETFILESDIR"
+        android:onClick="GetFilesDir">
+
+    </Button>
+    <Button
+        android:id="@+id/but2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="GETCAHEDIR"
+        android:onClick="GetCacheDir"
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/but3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GETEXTERNALFILESDIR"
+        android:onClick="GetExternalFilesDir"
+        >
+
+    </Button>
+
+    <Button
+        android:id="@+id/but4"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="GETEXTERNALCAHEDIR"
+        android:onClick="GetExternalCacheDir">
+
+    </Button>
+
+    <Button
+        android:id="@+id/but5"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="GETEXTERNALSTORAGEDIRECTORY"
+        android:onClick="GetExternalStorageDirectory">
+
+    </Button>
+
+    <Button
+        android:id="@+id/but6"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="GETEXTERNALSTORAGEPUBLICDIRECTORY"
+        android:onClick="GetExternalStoragePublicDirectory">
+
+    </Button>
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ThirdLaba</string>
+    <string name="ReadWrite">Read/Write:</string>
+    <string name="Absolute">Absolute:</string>
+    <string name="NameResource">Name:</string>
+    <string name="PathResource">Path:</string>
+    <string name="External">External:</string>
+</resources>
